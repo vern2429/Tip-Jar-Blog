@@ -31,6 +31,24 @@
 
     <h1>Welcome to Tip Jar Blog</h1>
     <p>Share your stories and Pi wallet address for support!</p>
+    <!-- Post Story Section -->
+        <form id="storyForm">
+            <input type="text" id="userName" placeholder="Your Name" required>
+            <textarea id="storyText" placeholder="Share your story..." required></textarea>
+            <input type="text" id="piAddress" placeholder="Your Pi Wallet Address" required>
+            <button type="submit">Post Your Story</button>
+        </form>
+
+        <hr>
+
+        <!-- Display Stories Section -->
+        <h2>Stories Shared</h2>
+        <div id="storiesContainer">
+            <!-- Stories will appear here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
     </html>
