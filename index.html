@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tip Jar Blog</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <style>
+        /* Basic styling for the menu */
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Tip Jar Blog</h1>
-        <p>Share your story and receive Pi donations!</p>
 
-        <!-- Post Story Section -->
-        <form id="storyForm">
-            <input type="text" id="userName" placeholder="Your Name" required>
-            <textarea id="storyText" placeholder="Share your story..." required></textarea>
-            <input type="text" id="piAddress" placeholder="Your Pi Wallet Address" required>
-            <button type="submit">Post Your Story</button>
-        </form>
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-service.html">Terms of Service</a>
+    </nav>
 
-        <hr>
+    <h1>Welcome to Tip Jar Blog</h1>
+    <p>Share your stories and Pi wallet address for support!</p>
 
-        <!-- Display Stories Section -->
-        <h2>Stories Shared</h2>
-        <div id="storiesContainer">
-            <!-- Stories will appear here -->
-        </div>
-    </div>
-
-    <script src="script.js"></script>
 </body>
-  </html>
-  
+    </html>
+    
